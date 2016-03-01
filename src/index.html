@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="./css/index.css">
+	<script src="./js/jquery-1.11.1.min.js"></script>
+	<script src="./js/jquery.comboBox.js"></script>
+</head>
+<body>
+
+	<input class="input">
+
+	
+
+<script>
+		var inputData = [
+			{
+				value:1,
+				text:'asdasda'
+			},
+			{
+				value:2,
+				text:'dadafhgfgh'
+			},
+			{
+				value:3,
+				text:'hfhfhgf'
+			}
+		];
+		$('input').comboBox();
+		$('input').comboBox('resetList',{
+			data:inputData
+		});
+</script>
+
+</body>
+</html>
